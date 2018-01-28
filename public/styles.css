@@ -1,0 +1,37 @@
+#main-container {
+  display: flex;
+  margin: 2px;
+}
+
+#about-me {
+  display: block;
+  flex-basis: auto;
+  flex-grow: 0.5;
+}
+
+#about-me__image-container {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 1;
+  justify-content: center;
+  margin-top: 7em;
+}
+
+#about-me__image-container > img {
+  border: 10px;
+}
+
+#about-me__text-container {
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 1;
+  justify-content: center;
+  margin-top: 2em;
+  padding: 3em;
+}
+
+#portfolio {
+  display: block;
+  flex-basis: auto;
+  flex-grow: 0.5;
+}
